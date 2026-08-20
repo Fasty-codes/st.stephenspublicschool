@@ -31,6 +31,7 @@ function Header() {
           <li><a href="About" onClick={closeMenu}>About</a></li>
           <li><a href="Admission" onClick={closeMenu}>Admissions</a></li>
           <li><a href="Gallery" onClick={closeMenu}>Gallery</a></li>
+          {/* <li><a href="Academics" onClick={closeMenu}>Academics</a></li> */}
           <li><a href="Contact" onClick={closeMenu}>Contact</a></li>
         </ul>
 
@@ -47,6 +48,7 @@ function Header() {
           <li><a href="About" onClick={closeMenu}>About</a></li>
           <li><a href="Admission" onClick={closeMenu}>Admissions</a></li>
           <li><a href="Gallery" onClick={closeMenu}>Gallery</a></li>
+          {/* <li><a href="Academics" onClick={closeMenu}>Academics</a></li> */}
           <li><a href="Contact" onClick={closeMenu}>Contact</a></li>
         </ul>
       </div>

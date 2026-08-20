@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Admission from './pages/Admission';
+import AcademicsPage from './pages/AcademicsPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/admission" element={<Admission />} />
+        <Route path="/academics" element={<AcademicsPage />} />
       </Routes>
     </Router>
   );
