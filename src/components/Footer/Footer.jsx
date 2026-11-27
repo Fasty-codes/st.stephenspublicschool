@@ -47,6 +47,7 @@ const Footer = () => {
 
                 <div className="footer-bottom">
                     <p>© {new Date().getFullYear()} St. Stephen's Public School. All rights reserved.</p>
+                    <p className="created-by">Created with 🩷 by Steve</p>
                 </div>
             </footer>
 
