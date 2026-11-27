@@ -107,3 +107,9 @@ footer {
   background-color: rgba(0, 0, 0, 0.2);
   font-size: 0.9rem;
 }
+
+.footer-bottom .created-by {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
