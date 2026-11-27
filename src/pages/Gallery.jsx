@@ -105,7 +105,7 @@ const Gallery = () => {
 
     const videos = [
         { type: 'video', src: video1, alt: 'School Video 1' },
-        { type: 'video', src: video2, alt: 'School Video 2' },
+        // { type: 'video', src: video2, alt: 'School Video 2' },
     ];
 
     const openFullscreen = (index) => {
