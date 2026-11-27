@@ -6,11 +6,11 @@ import './AboutPage.css';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 // import oldImage from '../assets/images/old.png';
-import managerImg from '../assets/images/manager.png';
-import asstImg from '../assets/images/asst.png';
-import secretaryImg from '../assets/images/secretary.png';
-import principalImg from '../assets/images/principal.png';
-import vicePrincipalImg from '../assets/images/vice principal.png';
+// import managerImg from '../assets/images/manager.png';
+// import asstImg from '../assets/images/asst.png';
+// import secretaryImg from '../assets/images/secretary.png';
+// import principalImg from '../assets/images/principal.png';
+// import vicePrincipalImg from '../assets/images/vice principal.png';
 import bulbImg from '../assets/images/light-bulb.png';
 import adImg from '../assets/images/slide43.png';
 import { firstCarouselImages, secondCarouselImages } from '../facilityImages';
@@ -44,50 +44,50 @@ const AboutPage = () => {
                 <div class="governing-grid">
                     <div class="member-card">
                         <div class="member-img-container">
-                            <img src={managerImg} alt="School Manager" class="member-img" />
+                            {/* <img src={managerImg} alt="School Manager" class="member-img" /> */}
                         </div>
                         <div class="member-info">
-                            <h3>Rev. Fr Wilson Sankarathil</h3>
+                            <h3>Rev Fr. Vimal Mammen Cherian</h3>
                             <p class="position">School Manager</p>
                         </div>
                     </div>
 
                     <div class="member-card">
                         <div class="member-img-container">
-                            <img src={asstImg} alt="Assistant Manager" class="member-img" />
+                            {/* <img src={asstImg} alt="Assistant Manager" class="member-img" /> */}
                         </div>
                         <div class="member-info">
-                            <h3>Rev. Fr Tino Thankachan</h3>
+                            <h3>Rev. Fr Jitin Joseph Mathew</h3>
                             <p class="position">School Asst. Manager</p>
                         </div>
                     </div>
 
                     <div class="member-card">
                         <div class="member-img-container">
-                            <img src={secretaryImg} alt="School Secretary" class="member-img" />
+                            {/* <img src={secretaryImg} alt="School Secretary" class="member-img" /> */}
                         </div>
                         <div class="member-info">
-                            <h3>Jose Mathew</h3>
+                            <h3>Sri. T Jose</h3>
                             <p class="position">School Secretary</p>
                         </div>
                     </div>
 
                     <div class="member-card">
                         <div class="member-img-container">
-                            <img src={principalImg} alt="Principal" class="member-img" />
+                            {/* <img src={principalImg} alt="Principal" class="member-img" /> */}
                         </div>
                         <div class="member-info">
-                            <h3>Mrs Deepa G Pillai</h3>
+                            <h3>George Varghese</h3>
                             <p class="position">Principal</p>
                         </div>
                     </div>
 
                     <div class="member-card">
                         <div class="member-img-container">
-                            <img src={vicePrincipalImg} alt="Vice Principal" class="member-img" />
+                            {/* <img src={vicePrincipalImg} alt="Vice Principal" class="member-img" /> */}
                         </div>
                         <div class="member-info">
-                            <h3>Sunita Shihab</h3>
+                            <h3>Viji Vijayan</h3>
                             <p class="position">Vice Principal</p>
                         </div>
                     </div>
@@ -100,11 +100,11 @@ const AboutPage = () => {
                     <div class="member-list">
                         <ol class="styled-member-list">
                             <li>
-                                <span class="member-name">Prof.Dr. K C Raju Kottoor</span>
+                                <span class="member-name">Sri. Varghese G.</span>
                                 <span class="member-position">(Church Trustee)</span>
                             </li>
                             <li>
-                                <span class="member-name">Mr Sibi Koshy</span>
+                                <span class="member-name">Sri. Benoy P. George</span>
                                 <span class="member-position">(Church Secretary)</span>
                             </li>
                             <li>
@@ -118,7 +118,7 @@ const AboutPage = () => {
                                 <span class="member-name">Dr. Vinod Raj</span>
                             </li>
                             <li>
-                                <span class="member-name">Sri. Shiju Mathew</span>
+                                <span class="member-name">Sri. Shiju P. Mathew</span>
                             </li>
                         </ol>
                     </div>
