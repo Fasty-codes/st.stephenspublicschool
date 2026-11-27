@@ -273,7 +273,7 @@ const Gallery = () => {
 
   const videos = [
     { src: video1, poster: slide3, title: 'School Tour — Campus & Facilities' },
-    { src: video2, poster: slide2, title: 'Annual Day Highlights 2024' },
+    { src: video2, poster: slide2, title: 'White Revolution - Explanation' },
   ];
 
   const slides = [
